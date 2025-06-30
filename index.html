@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced E-Commerce</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Just Moist It</h1>
+    <select id="sort">
+      <option value="">Sort By</option>
+      <option value="price-asc">Price: Low to High</option>
+      <option value="price-desc">Price: High to Low</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="products" class="product-grid"></section>
+
+    <aside class="checkout">
+      <h2>Checkout</h2>
+      <div id="cart"></div>
+      <p id="total">Total: ₹0</p>
+      <button class="buy-now">Buy Now</button>
+
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MoistIt | Powered by HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
